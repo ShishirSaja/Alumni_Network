@@ -8,12 +8,7 @@ const mysql = require("mysql2");
 const db = require('../config/db');
 
 
-//const db = mysql.createConnection({
-  //  host: "localhost",
-    //user: "root",
-    //password: "Human1@73",
-    //database: "ALUMNI",
-//});
+
 
 // Set storage engine for Multer
 const storage = multer.diskStorage({
